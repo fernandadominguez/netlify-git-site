@@ -103,3 +103,20 @@ button {
     text-decoration: none;
     color: #4B2BB7;
 }
+
+/**********************/
+/* overlapping charts */
+/**********************/
+
+#rep-3-month {
+    padding: 2em;
+    position: relative;
+}
+#rep-6-month {
+    padding: 2em;
+    position: relative;
+    margin-top: -37em;
+    margin-left: 12em;
+
+    align-content: flex-start;
+}
