@@ -42,3 +42,64 @@ nav a {
 
     color: #828282;
 }
+
+/****************/
+/* hero section */
+/****************/
+
+div.hero {
+    padding: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+} 
+
+div.info {
+    padding: 4em;
+}
+
+div.info h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FA6797;
+}
+
+div h1 {
+    width: 10ch;
+    font-weight: bolder;
+    font-size: 2.4em;
+}
+
+div p {
+    padding: 2em 0;
+
+    color: #828282;
+    width: 25ch;
+}
+
+button {
+    padding: 1em 2em;
+    border-radius: 40px;
+}
+
+#start {
+    color: white;
+    background-color: #4B2BB7;
+    border: none;
+}
+
+#start a {
+    text-decoration: none;
+    color: white;
+}
+
+#demo {
+    border: 1px solid #4B2BB7;
+
+    color: #4B2BB7;
+    background-color: white;
+}
+
+#demo a {
+    text-decoration: none;
+    color: #4B2BB7;
+}
