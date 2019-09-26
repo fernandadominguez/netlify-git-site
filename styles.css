@@ -9,4 +9,97 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;}
+    font-family: 'Open Sans', sans-serif;
+}
+
+/***********/
+/* nav bar */
+/***********/
+
+nav {
+    padding: 1em;
+    display: flex;
+}
+nav img {
+    padding: 3em 0 3em 8em;
+}
+
+nav ul {
+    width: 65vw;
+    padding-top: 4em;
+
+    display: flex;
+    justify-content: flex-end;
+
+    list-style-type: none;
+}
+
+nav a {
+    padding: 1em;
+    margin-left: 0;
+
+    text-decoration: none; 
+
+    color: #828282;
+}
+
+/****************/
+/* hero section */
+/****************/
+
+div.hero {
+    padding: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+} 
+
+div.info {
+    padding: 4em;
+}
+
+div.info h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FA6797;
+}
+
+div h1 {
+    width: 10ch;
+    font-weight: bolder;
+    font-size: 2.4em;
+}
+
+div p {
+    padding: 2em 0;
+
+    color: #828282;
+    width: 25ch;
+}
+
+button {
+    padding: 1em 2em;
+    border-radius: 40px;
+}
+
+#start {
+    color: white;
+    background-color: #4B2BB7;
+    border: none;
+}
+
+#start a {
+    text-decoration: none;
+    color: white;
+}
+
+#demo {
+    border: 1px solid #4B2BB7;
+
+    color: #4B2BB7;
+    background-color: white;
+}
+
+#demo a {
+    text-decoration: none;
+    color: #4B2BB7;
+}
