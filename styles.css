@@ -128,26 +128,36 @@ button {
 /********/
 
 form {
-    padding: 4em;
+    padding: 2em 1em 6em 9em;
 }
 fieldset {
     border: none;
 }
 
 legend h4 {
+    padding-bottom: 2em;
+
     text-transform: uppercase;
     font-weight: bolder;
 }
-fieldset label {
+label {
+    padding-top: 3em;
     text-transform: uppercase;
+    font-size: .7em;
 }
 input {
+    height: 5ch;
+    width: 25ch;
+
     display: block;
 
+    border: none;
     border-radius: 5px;
     background-color: #E2DDEF;
 }
 #signup {
+    margin-top: 3em;
+    border: none;
     background-color: #4B2BB7;
     color: white;
 }
